@@ -9,8 +9,9 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 public class ManagementApplication {
 
+		
 	public static void main(String[] args) {
-		System.out.println("LeagueApplication.main()");
+		System.out.println("-> LeagueApplication.main()");
 		SpringApplication.run(ManagementApplication.class, args);
 	}
 
