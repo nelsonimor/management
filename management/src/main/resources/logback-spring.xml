@@ -17,7 +17,7 @@
 			resource="org/springframework/boot/logging/logback/console-appender.xml" />
 		<appender name="FILE-ROLLING"
 			class="ch.qos.logback.core.rolling.RollingFileAppender">
-			<file>C:\Users\JeremyTruquet\Personnal\PersoWorkspace\logs\bball.log
+			<file>C:\logs\bball.log
 			</file>
 
 			<rollingPolicy
