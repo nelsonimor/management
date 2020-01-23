@@ -1,6 +1,7 @@
 package fr.bball.management.bo;
 
 import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -27,7 +28,9 @@ public class CountryBO {
 	@JoinColumn(name = "FK_CONTINENT_ID",nullable = false)
 	private ContinentBO continent;
 	
+	@Column(nullable = false)
 	private String codeiso2;
+	
 	private String codeiso3;
 	private String nationality;
 	
