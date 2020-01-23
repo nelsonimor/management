@@ -23,7 +23,7 @@ public class CityBO {
 	@JsonIgnore
 	private int id;
 	
-	@Column(name = "name",unique = true)
+	@Column(name = "name",unique = false)
 	private String name;
 	
 	@OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
