@@ -34,7 +34,7 @@ public class CountryBO {
 	@Column(nullable = true)
 	private String codeiso3;
 	
-	@Column(nullable = true)
+	@Column(nullable = false)
 	private String nationality;
 	
 
