@@ -16,7 +16,7 @@ public class ManagementApplication {
 
 		
 	public static void main(String[] args) {
-		logger.debug("Launch application");
+		logger.debug("Launch ManagementApplication");
 		SpringApplication.run(ManagementApplication.class, args);
 	}
 
