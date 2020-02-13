@@ -10,3 +10,4 @@ INSERT INTO country(name,codeiso2,codeiso3,nationality,fk_continent_id) VALUES (
 INSERT INTO city(name,county,countycode,latitude,longitude,state,zip,fk_country_id) VALUES('New York','New York County','NY',40.71455,-74.007118,'New York','10007',select id from country where name = 'United States');
 INSERT INTO league(name,type,fk_city_id) VALUES('NBA','Open',select id from city where name = 'New York');
 INSERT INTO arena(name,capacity,yearcreation,fk_city_id) VALUES('Madison Square Garden',15000,1975,select id from city where name = 'New York');
+INSERT INTO team(name,fk_city1_id) VALUES('New York Knicks',select id from city where name = 'New York');

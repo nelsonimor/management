@@ -9,6 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
+import javax.persistence.PreRemove;
 import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -58,10 +59,10 @@ public class CityBO {
 		this.name = name;
 	}
 	
-	//@PreRemove
-	//public void preRemove() {
-	//   setCountry(null);
-	//}
+	@PreRemove
+	public void preRemove() {
+	   setCountry(null);
+	}
 	
 	public int getId() {
 		return id;

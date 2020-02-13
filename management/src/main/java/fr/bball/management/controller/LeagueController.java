@@ -31,7 +31,7 @@ import io.swagger.annotations.ApiOperation;
 @RestController
 public class LeagueController {
 	
-	Logger logger = LoggerFactory.getLogger(LeagueController.class);
+	private static final Logger logger = LoggerFactory.getLogger(LeagueController.class);
 	
     @Autowired
     private LeagueDAO leagueDAO;
@@ -73,7 +73,7 @@ public class LeagueController {
 	
     @PostMapping(value = "/Leagues")
     public ResponseEntity<Void> addLeague(@RequestBody @Valid LeagueBO league) {
-    	System.out.println("LeagueController.addLeague()");
+    	logger.debug("LeagueController.addLeague()");
     	
     	if(league.getCity()!=null) {
     		CityBO city = cityDAO.findByNameEquals(league.getCity().getName());

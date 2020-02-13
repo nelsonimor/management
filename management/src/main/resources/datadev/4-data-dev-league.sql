@@ -1,0 +1,1 @@
+INSERT INTO league(name,type,fk_city_id) VALUES('NBA','Open',select id from city where name = 'New York');

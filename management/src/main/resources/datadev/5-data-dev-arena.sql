@@ -1,0 +1,1 @@
+INSERT INTO arena(name,capacity,yearcreation,fk_city_id) VALUES('Madison Square Garden',15000,1975,select id from city where name = 'New York');

@@ -1,0 +1,596 @@
+2020-02-05 15:03:36,361 INFO fr.bball.management.ManagementApplication [main] Starting ManagementApplication on DESKTOP-QJ5FTDD with PID 24624 (C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management\target\classes started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-02-05 15:03:36,367 DEBUG fr.bball.management.ManagementApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-05 15:03:36,368 INFO fr.bball.management.ManagementApplication [main] The following profiles are active: dev,prod
+2020-02-05 15:03:37,808 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 15:03:37,809 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-05 15:03:38,111 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 15:03:40,243 INFO fr.bball.management.ManagementApplication [main] Started ManagementApplication in 4.311 seconds (JVM running for 4.743)
+2020-02-05 15:03:48,982 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-5] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 15:14:44,065 INFO fr.bball.management.ManagementApplication [main] Starting ManagementApplication on DESKTOP-QJ5FTDD with PID 9276 (C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management\target\classes started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-02-05 15:14:44,066 DEBUG fr.bball.management.ManagementApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-05 15:14:44,067 INFO fr.bball.management.ManagementApplication [main] The following profiles are active: dev,prod
+2020-02-05 15:14:45,485 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 15:14:45,486 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-05 15:14:45,571 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 15:14:47,716 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2020-02-05 15:14:47,720 WARN org.apache.catalina.loader.WebappClassLoaderBase [main] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-02-05 15:14:47,721 WARN org.apache.catalina.loader.WebappClassLoaderBase [main] The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-02-05 15:14:47,731 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8888 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8888 or configure this application to listen on another port.
+
+2020-02-05 15:14:47,750 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000478: Unsuccessful: drop table city if exists
+2020-02-05 15:14:47,751 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000478: Unsuccessful: drop table continent if exists
+2020-02-05 15:14:47,752 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000478: Unsuccessful: drop table country if exists
+2020-02-05 15:15:28,145 INFO fr.bball.management.ManagementApplication [main] Starting ManagementApplication on DESKTOP-QJ5FTDD with PID 24964 (C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management\target\classes started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-02-05 15:15:28,146 DEBUG fr.bball.management.ManagementApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-05 15:15:28,146 INFO fr.bball.management.ManagementApplication [main] The following profiles are active: dev,prod
+2020-02-05 15:15:29,563 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 15:15:29,564 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-05 15:15:29,964 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 15:15:32,122 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2020-02-05 15:15:32,126 WARN org.apache.catalina.loader.WebappClassLoaderBase [main] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-02-05 15:15:32,127 WARN org.apache.catalina.loader.WebappClassLoaderBase [main] The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-02-05 15:15:32,134 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8888 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8888 or configure this application to listen on another port.
+
+2020-02-05 15:15:32,142 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000478: Unsuccessful: drop table city if exists
+2020-02-05 15:15:32,143 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000478: Unsuccessful: drop table continent if exists
+2020-02-05 15:15:32,144 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000478: Unsuccessful: drop table country if exists
+2020-02-05 15:19:12,480 INFO fr.bball.management.ManagementApplication [main] Starting ManagementApplication on DESKTOP-QJ5FTDD with PID 15504 (C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management\target\classes started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-02-05 15:19:12,481 DEBUG fr.bball.management.ManagementApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-05 15:19:12,482 INFO fr.bball.management.ManagementApplication [main] The following profiles are active: dev,prod
+2020-02-05 15:19:13,907 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 15:19:13,908 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-05 15:19:13,990 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 15:19:16,110 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2020-02-05 15:19:16,113 WARN org.apache.catalina.loader.WebappClassLoaderBase [main] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-02-05 15:19:16,114 WARN org.apache.catalina.loader.WebappClassLoaderBase [main] The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-02-05 15:19:16,121 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8888 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8888 or configure this application to listen on another port.
+
+2020-02-05 15:19:16,131 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000478: Unsuccessful: drop table city if exists
+2020-02-05 15:19:16,133 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000478: Unsuccessful: drop table continent if exists
+2020-02-05 15:19:16,133 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000478: Unsuccessful: drop table country if exists
+2020-02-05 15:19:40,088 INFO fr.bball.management.ManagementApplication [main] Starting ManagementApplication on DESKTOP-QJ5FTDD with PID 21860 (C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management\target\classes started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-02-05 15:19:40,089 DEBUG fr.bball.management.ManagementApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-05 15:19:40,090 INFO fr.bball.management.ManagementApplication [main] The following profiles are active: dev,prod
+2020-02-05 15:19:41,501 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 15:19:41,502 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-05 15:19:41,583 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 15:19:43,764 INFO fr.bball.management.ManagementApplication [main] Started ManagementApplication in 4.098 seconds (JVM running for 4.519)
+2020-02-05 15:19:56,426 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 15:23:50,401 INFO fr.bball.management.ManagementApplication [main] Starting ManagementApplication on DESKTOP-QJ5FTDD with PID 22456 (C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management\target\classes started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-02-05 15:23:50,403 DEBUG fr.bball.management.ManagementApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-05 15:23:50,403 INFO fr.bball.management.ManagementApplication [main] The following profiles are active: dev,prod
+2020-02-05 15:23:51,903 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 15:23:51,903 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-05 15:23:51,995 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 15:23:54,173 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2020-02-05 15:23:54,176 WARN org.apache.catalina.loader.WebappClassLoaderBase [main] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-02-05 15:23:54,177 WARN org.apache.catalina.loader.WebappClassLoaderBase [main] The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-02-05 15:23:54,185 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8888 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8888 or configure this application to listen on another port.
+
+2020-02-05 15:23:54,193 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000478: Unsuccessful: drop table city if exists
+2020-02-05 15:23:54,195 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000478: Unsuccessful: drop table continent if exists
+2020-02-05 15:23:54,195 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000478: Unsuccessful: drop table country if exists
+2020-02-05 15:24:09,998 INFO fr.bball.management.ManagementApplication [main] Starting ManagementApplication on DESKTOP-QJ5FTDD with PID 6604 (C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management\target\classes started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-02-05 15:24:09,999 DEBUG fr.bball.management.ManagementApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-05 15:24:10,000 INFO fr.bball.management.ManagementApplication [main] The following profiles are active: dev,prod
+2020-02-05 15:24:11,471 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 15:24:11,472 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-05 15:24:11,556 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 15:24:13,735 INFO fr.bball.management.ManagementApplication [main] Started ManagementApplication in 4.17 seconds (JVM running for 4.614)
+2020-02-05 15:25:12,298 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 15:33:50,236 INFO fr.bball.management.ManagementApplication [main] Starting ManagementApplication on DESKTOP-QJ5FTDD with PID 11464 (C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management\target\classes started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-02-05 15:33:50,238 DEBUG fr.bball.management.ManagementApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-05 15:33:50,238 INFO fr.bball.management.ManagementApplication [main] The following profiles are active: dev,prod
+2020-02-05 15:33:51,656 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 15:33:51,657 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-05 15:33:51,741 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 15:33:53,916 INFO fr.bball.management.ManagementApplication [main] Started ManagementApplication in 4.113 seconds (JVM running for 4.513)
+2020-02-05 15:35:05,012 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 15:39:06,138 INFO fr.bball.management.ManagementApplication [main] Starting ManagementApplication on DESKTOP-QJ5FTDD with PID 24568 (C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management\target\classes started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-02-05 15:39:06,139 DEBUG fr.bball.management.ManagementApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-05 15:39:06,140 INFO fr.bball.management.ManagementApplication [main] The following profiles are active: dev,prod
+2020-02-05 15:39:07,632 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 15:39:07,633 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-05 15:39:07,724 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 15:39:10,074 INFO fr.bball.management.ManagementApplication [main] Started ManagementApplication in 4.404 seconds (JVM running for 4.815)
+2020-02-05 15:39:18,144 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 15:40:54,048 INFO fr.bball.management.ManagementApplication [main] Starting ManagementApplication on DESKTOP-QJ5FTDD with PID 10856 (C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management\target\classes started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-02-05 15:40:54,050 DEBUG fr.bball.management.ManagementApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-05 15:40:54,050 INFO fr.bball.management.ManagementApplication [main] The following profiles are active: dev,prod
+2020-02-05 15:40:55,475 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 15:40:55,476 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-05 15:40:55,557 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 15:40:57,750 INFO fr.bball.management.ManagementApplication [main] Started ManagementApplication in 4.135 seconds (JVM running for 4.557)
+2020-02-05 15:41:10,216 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 15:47:08,212 INFO fr.bball.management.ManagementApplication [main] Starting ManagementApplication on DESKTOP-QJ5FTDD with PID 4596 (C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management\target\classes started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-02-05 15:47:08,213 DEBUG fr.bball.management.ManagementApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-05 15:47:08,214 INFO fr.bball.management.ManagementApplication [main] The following profiles are active: dev,prod
+2020-02-05 15:47:09,632 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 15:47:09,634 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-05 15:47:11,328 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 15:47:13,562 INFO fr.bball.management.ManagementApplication [main] Started ManagementApplication in 5.784 seconds (JVM running for 6.251)
+2020-02-05 15:47:19,419 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 15:48:38,498 DEBUG fr.bball.management.controller.LeagueController [http-nio-8888-exec-8] -> List all leagues
+2020-02-05 15:48:38,758 DEBUG fr.bball.management.controller.LeagueController [http-nio-8888-exec-8] -> List all leagues : 1 leagues found
+2020-02-05 15:49:19,213 INFO fr.bball.management.ManagementApplication [main] Starting ManagementApplication on DESKTOP-QJ5FTDD with PID 17828 (C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management\target\classes started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-02-05 15:49:19,215 DEBUG fr.bball.management.ManagementApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-05 15:49:19,215 INFO fr.bball.management.ManagementApplication [main] The following profiles are active: dev,prod
+2020-02-05 15:49:20,647 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 15:49:20,648 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-05 15:49:20,734 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 15:49:23,025 INFO fr.bball.management.ManagementApplication [main] Started ManagementApplication in 4.237 seconds (JVM running for 4.656)
+2020-02-05 15:49:29,350 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 15:50:41,444 DEBUG fr.bball.management.controller.LeagueController [http-nio-8888-exec-6] LeagueController.addLeague()
+2020-02-05 15:50:41,712 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8888-exec-6] NULL non permis pour la colonne "FK_COUNTRY_ID"
+NULL not allowed for column "FK_COUNTRY_ID"; SQL statement:
+insert into city (id, fk_country_id, county, countycode, latitude, longitude, name, state, zip) values (null, ?, ?, ?, ?, ?, ?, ?, ?) [23502-200]
+2020-02-05 15:50:41,730 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8888-exec-6] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: NULL non permis pour la colonne "FK_COUNTRY_ID"
+NULL not allowed for column "FK_COUNTRY_ID"; SQL statement:
+insert into city (id, fk_country_id, county, countycode, latitude, longitude, name, state, zip) values (null, ?, ?, ?, ?, ?, ?, ?, ?) [23502-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:459)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:374)
+	at org.h2.table.Table.validateConvertUpdateSequence(Table.java:845)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:187)
+	at org.h2.command.dml.Insert.update(Insert.java:151)
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:272)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:191)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:191)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:152)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:43)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3106)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3699)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:84)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:335)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:292)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:198)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:128)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:192)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:135)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:118)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:726)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:694)
+	at org.hibernate.engine.spi.CascadingActions$7.cascade(CascadingActions.java:298)
+	at org.hibernate.engine.internal.Cascade.cascadeToOne(Cascade.java:492)
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:416)
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:218)
+	at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:151)
+	at org.hibernate.event.internal.AbstractSaveEventListener.cascadeBeforeSave(AbstractSaveEventListener.java:432)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:269)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:198)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:128)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:192)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:135)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:62)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:108)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:702)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:688)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:368)
+	at com.sun.proxy.$Proxy99.persist(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314)
+	at com.sun.proxy.$Proxy99.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:554)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:371)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:204)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:657)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:621)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:605)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy117.save(Unknown Source)
+	at fr.bball.management.controller.LeagueController.addLeague(LeagueController.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-05 15:52:19,791 INFO fr.bball.management.ManagementApplication [main] Starting ManagementApplication on DESKTOP-QJ5FTDD with PID 17268 (C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management\target\classes started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-02-05 15:52:19,792 DEBUG fr.bball.management.ManagementApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-05 15:52:19,793 INFO fr.bball.management.ManagementApplication [main] The following profiles are active: dev,prod
+2020-02-05 15:52:21,222 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 15:52:21,223 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-05 15:52:21,305 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 15:52:23,451 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2020-02-05 15:52:23,455 WARN org.apache.catalina.loader.WebappClassLoaderBase [main] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-02-05 15:52:23,456 WARN org.apache.catalina.loader.WebappClassLoaderBase [main] The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-02-05 15:52:23,462 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8888 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8888 or configure this application to listen on another port.
+
+2020-02-05 15:52:23,472 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000478: Unsuccessful: drop table city if exists
+2020-02-05 15:52:23,473 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000478: Unsuccessful: drop table continent if exists
+2020-02-05 15:52:23,474 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000478: Unsuccessful: drop table country if exists
+2020-02-05 15:52:38,633 INFO fr.bball.management.ManagementApplication [main] Starting ManagementApplication on DESKTOP-QJ5FTDD with PID 19520 (C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management\target\classes started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-02-05 15:52:38,634 DEBUG fr.bball.management.ManagementApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-05 15:52:38,634 INFO fr.bball.management.ManagementApplication [main] The following profiles are active: dev,prod
+2020-02-05 15:52:40,052 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 15:52:40,053 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-05 15:52:40,139 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 15:52:42,332 INFO fr.bball.management.ManagementApplication [main] Started ManagementApplication in 4.136 seconds (JVM running for 4.575)
+2020-02-05 15:52:47,722 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 15:52:47,822 DEBUG fr.bball.management.controller.GeocodingController [http-nio-8888-exec-2] Geocoding : cityName = {
+  "cityName": "Chicago",
+  "countryName": "United States"
+} / countryName = null
+2020-02-05 15:52:47,840 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8888-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at fr.bball.management.controller.GeocodingController.geocoding(GeocodingController.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-05 15:53:33,298 DEBUG fr.bball.management.controller.GeocodingController [http-nio-8888-exec-4] Geocoding : cityName = "cityName": "Chicago","countryName": "United States" / countryName = null
+2020-02-05 15:53:34,080 DEBUG fr.bball.management.controller.GeocodingController [http-nio-8888-exec-4] Result : X = 0.0 / Y = 0.0
+2020-02-05 15:55:30,000 DEBUG fr.bball.management.controller.GeocodingController [http-nio-8888-exec-7] Geocoding : cityName = {
+	"Chicago",
+	"United States"
+} / countryName = null
+2020-02-05 15:55:30,003 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8888-exec-7] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at fr.bball.management.controller.GeocodingController.geocoding(GeocodingController.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-05 15:58:16,273 INFO fr.bball.management.ManagementApplication [main] Starting ManagementApplication on DESKTOP-QJ5FTDD with PID 7064 (C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management\target\classes started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-02-05 15:58:16,275 DEBUG fr.bball.management.ManagementApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-05 15:58:16,275 INFO fr.bball.management.ManagementApplication [main] The following profiles are active: dev,prod
+2020-02-05 15:58:17,812 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 15:58:17,813 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-05 15:58:17,901 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 15:58:20,275 INFO fr.bball.management.ManagementApplication [main] Started ManagementApplication in 4.448 seconds (JVM running for 4.903)
+2020-02-05 15:58:28,986 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 15:58:29,091 DEBUG fr.bball.management.controller.GeocodingController [http-nio-8888-exec-2] Geocoding : cityName = Chicago / countryName = United States
+2020-02-05 15:58:34,253 DEBUG fr.bball.management.controller.GeocodingController [http-nio-8888-exec-2] Result : X = 41.8755616 / Y = -87.6244212
+2020-02-05 16:00:30,811 INFO fr.bball.management.ManagementApplication [main] Starting ManagementApplication on DESKTOP-QJ5FTDD with PID 8668 (C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management\target\classes started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-02-05 16:00:30,812 DEBUG fr.bball.management.ManagementApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-05 16:00:30,812 INFO fr.bball.management.ManagementApplication [main] The following profiles are active: dev,prod
+2020-02-05 16:00:32,297 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 16:00:32,299 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-05 16:00:32,710 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 16:00:34,977 INFO fr.bball.management.ManagementApplication [main] Started ManagementApplication in 4.606 seconds (JVM running for 5.038)
+2020-02-05 16:00:45,926 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 16:00:46,014 DEBUG fr.bball.management.controller.GeocodingController [http-nio-8888-exec-1] Geocoding : cityName = Chicago / countryName = United States
+2020-02-05 16:01:00,769 DEBUG fr.bball.management.controller.GeocodingController [http-nio-8888-exec-1] Result : X = 41.8755616 / Y = -87.6244212
+2020-02-05 16:02:33,647 INFO fr.bball.management.ManagementApplication [main] Starting ManagementApplication on DESKTOP-QJ5FTDD with PID 22588 (C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management\target\classes started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-02-05 16:02:33,648 DEBUG fr.bball.management.ManagementApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-05 16:02:33,648 INFO fr.bball.management.ManagementApplication [main] The following profiles are active: dev,prod
+2020-02-05 16:02:35,148 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 16:02:35,149 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-05 16:02:35,238 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 16:02:37,529 INFO fr.bball.management.ManagementApplication [main] Started ManagementApplication in 4.323 seconds (JVM running for 4.759)
+2020-02-05 16:02:42,669 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 16:02:42,758 DEBUG fr.bball.management.controller.GeocodingController [http-nio-8888-exec-1] Geocoding : cityName = Chicago / countryName = United States
+2020-02-05 16:02:45,111 DEBUG fr.bball.management.controller.GeocodingController [http-nio-8888-exec-1] Result : X = 41.8755616 / Y = -87.6244212
+2020-02-05 16:45:13,663 INFO fr.bball.management.ManagementApplication [main] Starting ManagementApplication on DESKTOP-QJ5FTDD with PID 25116 (C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management\target\classes started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-02-05 16:45:13,665 DEBUG fr.bball.management.ManagementApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-05 16:45:13,666 INFO fr.bball.management.ManagementApplication [main] The following profiles are active: dev,prod
+2020-02-05 16:45:15,164 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 16:45:15,165 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-05 16:45:15,590 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 16:45:17,911 INFO fr.bball.management.ManagementApplication [main] Started ManagementApplication in 4.698 seconds (JVM running for 5.188)
+2020-02-05 16:45:45,362 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 16:52:41,734 INFO fr.bball.management.ManagementApplication [main] Starting ManagementApplication on DESKTOP-QJ5FTDD with PID 14868 (C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management\target\classes started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-02-05 16:52:41,735 DEBUG fr.bball.management.ManagementApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-05 16:52:41,735 INFO fr.bball.management.ManagementApplication [main] The following profiles are active: dev,prod
+2020-02-05 16:52:43,198 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 16:52:43,199 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-05 16:52:43,595 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 16:52:45,812 INFO fr.bball.management.ManagementApplication [main] Started ManagementApplication in 4.51 seconds (JVM running for 4.988)
+2020-02-05 16:52:52,446 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'

@@ -1,0 +1,21 @@
+2020-01-30 17:03:28,632 INFO fr.bball.league.league.LeagueApplicationTests [main] Starting LeagueApplicationTests on DESKTOP-QJ5FTDD with PID 14112 (started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-01-30 17:03:28,634 DEBUG fr.bball.league.league.LeagueApplicationTests [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-30 17:03:28,634 INFO fr.bball.league.league.LeagueApplicationTests [main] The following profiles are active: dev
+2020-01-30 17:03:34,946 INFO fr.bball.league.league.LeagueApplicationTests [main] Started LeagueApplicationTests in 6.901 seconds (JVM running for 8.027)
+2020-01-30 17:03:35,119 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table city if exists
+2020-01-30 17:03:35,122 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table continent if exists
+2020-01-30 17:03:35,122 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table country if exists
+2020-01-30 17:12:48,851 INFO fr.bball.league.league.ManagementApplicationTests [main] Starting ManagementApplicationTests on DESKTOP-QJ5FTDD with PID 10588 (started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-01-30 17:12:48,853 DEBUG fr.bball.league.league.ManagementApplicationTests [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-30 17:12:48,854 INFO fr.bball.league.league.ManagementApplicationTests [main] The following profiles are active: dev
+2020-01-30 17:12:54,796 INFO fr.bball.league.league.ManagementApplicationTests [main] Started ManagementApplicationTests in 6.428 seconds (JVM running for 7.479)
+2020-01-30 17:12:55,193 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table city if exists
+2020-01-30 17:12:55,195 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table continent if exists
+2020-01-30 17:12:55,195 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table country if exists
+2020-01-30 17:16:51,676 INFO fr.bball.league.league.ManagementApplicationTests [main] Starting ManagementApplicationTests on DESKTOP-QJ5FTDD with PID 6620 (started by JeremyTruquet in C:\Users\JeremyTruquet\Personnal\PersoWorkspace\management\management)
+2020-01-30 17:16:51,677 DEBUG fr.bball.league.league.ManagementApplicationTests [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-30 17:16:51,678 INFO fr.bball.league.league.ManagementApplicationTests [main] The following profiles are active: dev
+2020-01-30 17:16:57,414 INFO fr.bball.league.league.ManagementApplicationTests [main] Started ManagementApplicationTests in 6.178 seconds (JVM running for 7.2)
+2020-01-30 17:16:57,793 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table city if exists
+2020-01-30 17:16:57,796 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table continent if exists
+2020-01-30 17:16:57,797 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table country if exists

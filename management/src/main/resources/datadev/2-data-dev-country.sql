@@ -1,0 +1,2 @@
+INSERT INTO country(name,codeiso2,codeiso3,nationality,fk_continent_id) VALUES ('United States','US','USA','American',select id from continent where name = 'North America');
+INSERT INTO country(name,codeiso2,codeiso3,nationality,fk_continent_id) VALUES ('France','FR','FRA','Fre',select id from continent where name = 'Europe');

@@ -1,0 +1,3 @@
+INSERT INTO season(start_date,end_Date,fk_team_id) VALUES (TO_DATE('2019/07/01 00:00:00', 'yyyy/mm/dd hh24:mi:ss'),TO_DATE('2020/06/30 23:59:59', 'yyyy/mm/dd hh24:mi:ss'),select id from team where name = 'New York Knicks');
+INSERT INTO season(start_date,end_Date,fk_team_id) VALUES (TO_DATE('2018/07/01 00:00:00', 'yyyy/mm/dd hh24:mi:ss'),TO_DATE('2019/06/30 23:59:59', 'yyyy/mm/dd hh24:mi:ss'),select id from team where name = 'New York Knicks');
+INSERT INTO season(start_date,end_Date,fk_team_id) VALUES (TO_DATE('2017/07/01 00:00:00', 'yyyy/mm/dd hh24:mi:ss'),TO_DATE('2018/06/30 23:59:59', 'yyyy/mm/dd hh24:mi:ss'),select id from team where name = 'New York Knicks');

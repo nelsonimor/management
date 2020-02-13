@@ -9,6 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
+import javax.persistence.PreRemove;
 import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -73,6 +74,11 @@ public class CountryBO {
 	}
 	public void setNationality(String nationality) {
 		this.nationality = nationality;
+	}
+	
+	@PreRemove
+	public void preRemove() {
+	   setContinent(null);
 	}
 	
 
